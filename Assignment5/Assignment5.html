@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 5</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src ="Ass5.js"></script>
+    <style>
+        img{
+            height: 100px;
+        }
+        p{
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+<span id = "Icons">
+    <img src = "./img/Netflix.jfif" id = "Netflix">
+    <img src = "./img/Instagram.jpg" id = "Instagram">
+    <img src = "./img/PSN.png" id = "Playstation">
+    <img src = "./img/Crunchyroll.png" id = "Crunchyroll">
+    <img src = "./img/VizMedia.png" id = "VizMedia">
+    <img src = "./img/Youtube.png" id = "Youtube">
+</span>
+<form>
+    <label for = "in">In: </label>
+    <p id = "in"></p><br>
+    <label for = "out">Out: </label>
+    <p id = "out"></p><br>
+    <label for = "X">Mouse X: </label>
+    <p id = "X"></p>
+    <label for = "Y">Y: </label>
+    <p id = "Y"></p>
+</form>
+<div id = bigIcon></div>
+
+
+<script>
+    window.open(theIcons());
+    window.open(getXY());
+</script>
+</body>
+</html>
